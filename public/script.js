@@ -1,3 +1,6 @@
+// Wait for DOM to be fully loaded
+document.addEventListener('DOMContentLoaded', function() {
+
 // Mobile Menu Toggle
 const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
 const mainNav = document.querySelector('.main-nav');
@@ -297,3 +300,5 @@ window.addEventListener('load', () => {
 // Console log for developers
 console.log('%c🌸 M&F Landing Page', 'font-size: 20px; font-weight: bold; color: #000;');
 console.log('%cBuilt with care by Miyabi Framework', 'font-size: 12px; color: #666;');
+
+}); // End of DOMContentLoaded
